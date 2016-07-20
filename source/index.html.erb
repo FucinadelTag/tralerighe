@@ -16,7 +16,7 @@ conversionCode: >
                     <!-- /MOMENT -->
 ---
 <body>
-
+<!-- <div class="row">
 <div class="top-bar">
     <div class="top-bar-left">
         <ul class="menu">
@@ -24,13 +24,14 @@ conversionCode: >
         </ul>
     </div>
 </div>
+</div> -->
 
 
 <br>
 
 <div class="row">
     <div class="medium-12 column">
-    <h1 class="title">CORSO DI SCRITTURA CREATIVA</h1>
+    <h1 class="title"><a href="/"><img src="https://prismic-io.s3.amazonaws.com/tralerighe/5e235b6dfcc30eab38f330c7c2b89ab83029b11d_logo_tralerighe_lab.jpg"></a> CORSO DI SCRITTURA CREATIVA</h1>
     </div>
 </div>
 
@@ -148,6 +149,8 @@ conversionCode: >
     </div>
 </div>
 
+<%= partial "partials/rowCallToAction" %>
+
 <hr>
 
 <div class="row align-center">
@@ -161,7 +164,7 @@ conversionCode: >
 
 <div class="row">
     <div class="column">
-        <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> I temi del Corso</h2>
+        <h2><i class="fa fa-folder-open" aria-hidden="true"></i> I temi del Corso</h2>
     </div>
 </div>
 
@@ -169,20 +172,20 @@ conversionCode: >
     <div class="column small-12 medium-9">
         <p>
             <ul>
-                <li><h5><strong>L’idea</strong>: cercarla, trovarla, tenerla viva</h5></li>
-                <li><h5><strong>La storia</strong>: la struttura tra ordine e caos</h5></li>
-                <li><h5><strong>La forma del mondo</strong>: personaggi, ambiente, tempo</h5></li>
-                <li><h5><strong>Le parole giuste</strong>: stile, punto di vista, genere, lingua, tono, voce</h5></li>
-                <li><h5><strong>La struttura</strong>: incipit, finale e tutto quello che sta in mezzo</h5></li>
-                <li><h5><strong>Il corpo</strong>: dialoghi, colpi di scena, divagazioni, flashback e molto altro</h5></li>
-                <li><h5><strong>La revisione</strong>: rilettura e auto-editing</h5></li>
-                <li><h5><strong>L’approccio</strong>: aiutare l’ispirazione, mantenere la disciplina, gestire lo sconforto</h5></li>
-                <li><h5><strong>La pubblicazione</strong>: editori, agenti, proposte, contratti e altri incidenti (più o meno) necessari</h5></li>
+                <li><strong>L’idea</strong>: cercarla, trovarla, tenerla viva</li>
+                <li><strong>La storia</strong>: la struttura tra ordine e caos</li>
+                <li><strong>La forma del mondo</strong>: personaggi, ambiente, tempo</li>
+                <li><strong>Le parole giuste</strong>: stile, punto di vista, genere, lingua, tono, voce</li>
+                <li><strong>La struttura</strong>: incipit, finale e tutto quello che sta in mezzo</li>
+                <li><strong>Il corpo</strong>: dialoghi, colpi di scena, divagazioni, flashback e molto altro</li>
+                <li><strong>La revisione</strong>: rilettura e auto-editing</li>
+                <li><strong>L’approccio</strong>: aiutare l’ispirazione, mantenere la disciplina, gestire lo sconforto</li>
+                <li><strong>La pubblicazione</strong>: editori, agenti, proposte, contratti e altri incidenti (più o meno) necessari</li>
             </ul>
         </p>
     </div>
     <div class="column">
-        <img class="thumbnail" src="https://prismic-io.s3.amazonaws.com/tralerighe/1af923ad488dacb9e44543af7ce1c6a48c7ab030_scrittura.jpg">
+        <img class="thumbnail" src="https://prismic-io.s3.amazonaws.com/tralerighe/4bd33d07e5b770ff625d2fc23d4779762042faaa_scrittura.jpg">
     </div>
 </div>
 
@@ -190,25 +193,44 @@ conversionCode: >
 
 <div class="row">
     <div class="column">
-        <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> Alcuni dettagli!</h2>
+        <h2><i class="fa fa-info-circle" aria-hidden="true"></i> Informazioni pratiche</h2>
     </div>
 </div>
 
-<div class="row small-up-2">
+<div class="row small-up-1 medium-up-3">
     <div class="column">
-        <h4 class="subheader">Quanto costa?</h2>
+        <h4>Quanto costa?</h2>
         <p>
 
-            <span class="prezzo_iniziale">€ 1.250</span> (IVA compresa)<br>
-            Sconto del 32%
-             <span class="prezzo_scontato">€ 850</span> (IVA compresa)<br>
+            <span class="prezzo_intero">€ 1.250,00</span> <i>Sconto del 32%</i><br>
 
-            Pagamento in un’unica soluzione (quota ridotta): <strong>€ 850 (IVA compresa)</strong><br>
-            Pagamento in tre rate: <strong>€ 950 € (IVA compresa)</strong>
+            <span class="prezzo">€ 850,00</span> (IVA inclusa)<br>
+
+            Sconto valido fino al: <i><span class="dataPromo">31 Gennaio 2016</span></i>
         </p>
     </div>
     <div class="column">
-        <h4 class="subheader">Quanto dura il corso?</h2>
+        <h4>Dove si tiene il corso?</h2>
+        <p>
+            <strong>Libreria MAMU Magazzino Musica</strong><br>
+            via Soave 3, 20135 Milano<br>
+            <i>(300 metri dalla fermata MM3 Porta Romana)</i>
+        </p>
+    </div>
+    <div class="column">
+        <h4>Quanti saranno i partecipanti?</h2>
+        <p>
+            <strong>Il corso prevede un massimo di 25 partecipanti</strong><br>
+            Le candidature verranno quindi vagliate dallo staff di Tralerige<br>
+        </p>
+    </div>
+</div>
+<div class="row">
+    <img src="https://prismic-io.s3.amazonaws.com/tralerighe/26a3c5f52c103d4df9b3fc57ba93ba11ad68dabe_libri.jpg">
+</div>
+<div class="row">
+    <div class="column">
+        <h4>Quanto dura il corso?</h2>
         <p>
             Il Corso di scrittura creativa si svolgerà da<br>
             <strong>ottobre 2016 a febbraio 2017 per un fine settimana al mese:</strong>
@@ -224,23 +246,45 @@ conversionCode: >
             </ul>
         </p>
         <p>
-            Gli orari: <strong>dalle 9 alle 17</strong> (il sabato e la domenica)
+            Gli orari: <strong>dalle 9 alle 17</strong> (il sabato e la domenica)<br>
+            Durata totale: <strong>70 ore</strong>
         </p>
     </div>
     <div class="column">
-        <h4 class="subheader">Dove si tiene il corso?</h2>
+        <h4>Come selezionate i partecianti?</h2>
         <p>
-            <strong>Libreria MAMU Magazzino Musica</strong><br>
-            via Soave 3, 20135 Milano<br>
-            <i>(300 metri dalla fermata MM3 Porta Romana)</i>
+            Contatteremo personalemnte ciascun candidato indagando le motivazioni che lo spingono a voler partecipare.
+        </p>
+        <p>
+            Ti chiederemo:
+            <ul>
+                <li>una breve presentazione personale (chi sei e perché vuoi partecipare)</li>
+                <li>un’eventuale descrizione del progetto narrativo e/o l’estratto di un testo già prodotto (capitolo di un romanzo, racconto ecc.)</li>
+            </ul>
+        </p>
+        <p>
+            <br><strong>I candidati riceveranno una risposta entro 15 giorni dall’invio della domanda</strong>.
         </p>
     </div>
+</div>
+
+
+<div class="row banner show-for-medium">
+        <div class="small-12 columns">
+            <a href="#form">
+                <span class="sconto">Pubblicare è possibile</span>
+                <br><span class="subSconto">A corso concluso il tuo progetto potrà diventare un Libro!</span><br>
+                <span class="subSconto"><i>Pubblicato da Tralerighe Editore</i></span>
+            </a>
+        </div>
+</div>
+
+
+<%= partial "partials/form", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5"} %>
+
+<div class="row">
     <div class="column">
-        <h4 class="subheader">Quanti saranno i partecipanti?</h2>
-        <p>
-            <strong>Il corso prevede un massimo di 25 partecipanti</strong><br>
-            Le candidature verranno quindi vagliate dallo staff di Tralerige<br>
-        </p>
+        <h2><i class="fa fa-users" aria-hidden="true"></i> Chi organizza il corso?</h2>
     </div>
 </div>
 

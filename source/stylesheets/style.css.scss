@@ -288,26 +288,15 @@ footer {
     }
 }
 
-.corso {
-
-    padding-bottom: 50px;
-
-    .less_important {
-        font-size: 80%;
-        font-style: italic;
-    }
-
-    .prezzo {
-        font-size: 1.7rem;
-        color: #ff2424;
-        padding: 0.3125rem;
-    }
-
-    .prezzo_intero {
-        text-decoration: line-through;
-    }
+.prezzo {
+    font-size: 1.7rem;
+    color: #ff2424;
+    padding: 0.3125rem;
 }
 
+.prezzo_intero {
+    text-decoration: line-through;
+}
 
 .didascalia {
     font-size: 0.8125rem;
