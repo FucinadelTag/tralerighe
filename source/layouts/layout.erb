@@ -32,14 +32,17 @@
   </head>
 
   <body class="<%= page_classes %>">
+
     <%= yield %>
 
-  <%= javascript_include_tag  "all" %>
+    <%= partial "partials/footer" %>
+
+    <%= javascript_include_tag  "all" %>
 
 
-  <% if current_page.data.conversionCode  %>
+    <% if current_page.data.conversionCode  %>
         <%= current_page.data.conversionCode %>
-  <% end %>
+    <% end %>
 
   </body>
 </html>
