@@ -252,6 +252,7 @@ conversionCode: >
     </div>
 </div>
 
+<hr>
 
 <div class="row banner show-for-medium">
         <div class="small-12 columns">
@@ -266,6 +267,30 @@ conversionCode: >
 
 <%= partial "partials/form", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5"} %>
 
+<div class="row">
+    <div class="column">
+        <h2><i class="fa fa-bed" aria-hidden="true"></i> Non sei di Milano?</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <h4 class="subheader">Dormi e mangi a prezzi di favore</h2>
+
+        <p>
+            Attraverso <atrong>convenzioni molto vantaggiose</atrong>, Tralerighe è in grado di trovare per te soluzioni moto convenienti per il vitto e l'alloggio.
+            <br>Contattaci, e insime troveremo al souzione ideale per te. Dove dormire non deve essere un ostacolo alla partecipazione al corso!
+        </p>
+        <p>
+            I <strong>pranzi</strong> durante le giornate di corso sono <strong>inclusi nel prezzo</strong> di iscrizione al corso.
+            <br>Pensaimo a tutto noi!
+        </p>
+    </div>
+    <div class="column small-3">
+        <img src="https://prismic-io.s3.amazonaws.com/tralerighe/27fddf1f20062bc1fd77c68013ef4577d755caeb_milano_hotel_diana.jpg">
+    </div>
+</div>
+<hr>
 <div class="row">
     <div class="column">
         <h2><i class="fa fa-users" aria-hidden="true"></i> Chi Siamo?</h2>
@@ -292,6 +317,4 @@ conversionCode: >
 </div>
 
 
-<script>
-      $(document).foundation();
-</script>
+<%= partial "partials/rowCallToAction" %>
