@@ -101,17 +101,23 @@
     <section class="title-container show-for-small-only">
             <div class="row clearfix">
                 <div class="title float-center">
-                    <span class="title-mobile">
+                    <h1 class="title-mobile">
                         <% if current_page.data.testata.prima_riga != ''  %>
                             <%= current_page.data.testata.prima_riga %>
                         <% end %>
-                    </span>
+                    </h1>
+                    <br>
+                    <h2 class="medium">
+                        <% if current_page.data.testata.seconda_riga != ''  %>
+                            <%= current_page.data.testata.seconda_riga %><br />
+                        <% end %>
+                    </h2>
                     <img src="<%= current_page.data.immagineTestata %>">
                     <br><br>
                     <% if current_page.data.testata.hasButton != 0  %>
-                        <span class="show-for-medium">
+                        <h3 class="show-for-medium">
                             <%= partial "partials/callToAction" %>
-                        </span>
+                        </h3>
                     <% end %>
                 </div>
             </div>
