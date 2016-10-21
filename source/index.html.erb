@@ -19,9 +19,9 @@ conversionCode: >
                     <!-- MOMENT -->
                     <script src="https://s3-eu-west-1.amazonaws.com/cdn.fucinadeltag.it/moment.js"></script>
                     <script type="text/javascript">
-                        //moment.locale('it');
-                        //var lastDayOfMonth = moment().endOf('month').format("D\ MMMM YYYY");
-                        //$(".dataPromo").html(lastDayOfMonth);
+                        moment.locale('it');
+                        var lastDayOfMonth = moment().endOf('month').format("D\ MMMM YYYY");
+                        $(".dataPromo").html(lastDayOfMonth);
                     </script>
                     <!-- /MOMENT -->
 ---
@@ -261,7 +261,7 @@ conversionCode: >
 
             <span class="prezzo">€ 850,00</span> (IVA inclusa)<br>Pagabile anche a rate!<br>
 
-            Sconto valido fino ad <i><span class="dataPromo">esaurimento posti</span></i>
+            Sconto valido fino al <i><span class="dataPromo">esaurimento posti</span></i>
         </p>
         <hr class="hide-for-medium">
     </div>
