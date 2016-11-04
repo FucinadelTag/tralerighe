@@ -26,7 +26,9 @@ conversionCode: >
                     <!-- /MOMENT -->
 ---
 
-<%= partial "partials/promo_section" %>
+<div class="corner-ribbon top-right red shadow">Seconda Edizione!</div>
+
+<%= partial "partials/promo_section", :locals => { :precentuale_sconto => "32", :frase_incentivo => "Seconda Edizione - Iscriviti Subito!"} %>
 
 <%= partial "partials/rowCallToAction" %>
 
@@ -326,59 +328,13 @@ conversionCode: >
 
 <hr>
 
-<%= partial "partials/form", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5"} %>
+<%= partial "partials/form", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5", :precentuale_sconto => "32", :id_corso => "ScritturaCreativa_2"} %>
 
-<div class="row">
-    <div class="column">
-        <h2><i class="fa fa-bed" aria-hidden="true"></i> Non abiti a Milano?</h2>
-    </div>
-</div>
 
-<div class="row">
-    <div class="column">
-        <h4 class="subheader">Ti aiutiamo a trovare una sistemazione a prezzi vantaggiosi</h2>
+<%= partial "partials/dormire" %>
 
-        <p>Attraverso accordi con alcuni bed & breakfast, Tralerighe può offrirti soluzioni convenienti per l'alloggio in città.</p>
-
-    </div>
-    <div class="column small-12 medium-3">
-        <img src="https://prismic-io.s3.amazonaws.com/tralerighe/c64555adfca6036ff8564a241904eadf04625e1b_alloggio-1.jpg">
-    </div>
-</div>
 <hr>
-<div class="row">
-    <div class="column">
-        <h2><i class="fa fa-users" aria-hidden="true"></i> Chi Siamo?</h2>
-    </div>
-</div>
 
-<div class="row">
-    <div class="column small-12 medium-3">
-        <img src="https://prismic-io.s3.amazonaws.com/tralerighe/9c7684ac125b76209b7468f8b0f35f7a6f2c0779_logo_tralerighe_lab-1.jpg">
-    </div>
-    <div class="column">
-        <h4 class="subheader">Tralerighe Editore</h2>
-
-        <p>
-            Tralerighe e Tralerighe Lab, due realtà, un unico obiettivo: esplorare tutte le potenzialità della <strong>parola
-            scritta</strong>.
-        </p>
-        <p>
-            <strong>Tralerighe Lab</strong>, ultimo sviluppo di una società con <strong>15 anni di esperienza nel mondo dell’editoria</strong> e
-            della comunicazione, è un cantiere dove costruire e consolidare talenti e professionalità, dalla scrittura
-            creativa al copywriting, dalle tecniche di editing al giornalismo 2.0.
-        </p>
-        <p>
-            Si affianca a Tralerighe Editore: <strong>marchio editoriale indipendente,</strong>
-            con collane di narrativa e saggistica, definita dai mass-media
-            <i>“La casa editrice fucina di nuovi talenti”</i>.
-        </p>
-        <p>
-            Tralerighe Editore affianca a scrittori affermati come
-            <strong>Emanuela Nava</strong> e <strong>Bruno Perini</strong> esordienti osannati dalla critica come <strong>Michele Di Palma</strong> e <strong>Morena Rossi</strong>.
-        </p>
-    </div>
-</div>
-
+<%= partial "partials/chiSiamo" %>
 
 <%= partial "partials/rowCallToAction" %>

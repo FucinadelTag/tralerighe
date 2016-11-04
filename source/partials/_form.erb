@@ -12,6 +12,7 @@
                 <!-- <div data-abide-error class="alert callout" style="display: none;">
                     <p><i class="fi-alert"></i> Si sono verificati alcuni errori evidenziati in rosso.</p>
                 </div> -->
+                <input type="hidden" id="id_corso" name="id_corso" value="<%= id_corso %>">
                 <input type="hidden" id="deviceForm" name="device" value="large">
                 <input type="hidden" id="campagnaForm" name="campagna" value="direct">
                 <input type="hidden" id="optimizelyVariationForm" name="optimizelyVariation" value="">
@@ -76,10 +77,7 @@
                             </div>
                         </p>
                         <h5 class="show-for-medium">
-                            <i class="fa fa-money"></i> Usufruisci del 32% di sconto
-                        </h5>
-                        <h5 class="show-for-medium">
-                            <i class="fa fa-tachometer"></i> Seconda Edizione - Affrettati!
+                            <i class="fa fa-money"></i> Usufruisci del <%= precentuale_sconto %>% di sconto
                         </h5>
                         <h5 class="show-for-medium">
                             <i class="fa fa-check"></i> Nessun impegno di acquisto
