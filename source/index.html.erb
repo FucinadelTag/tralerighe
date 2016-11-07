@@ -23,10 +23,26 @@ conversionCode: >
                         var lastDayOfMonth = moment().endOf('month').format("D\ MMMM YYYY");
                         $(".dataPromo").html(lastDayOfMonth);
                     </script>
+                    <script type="text/javascript">
+                        $(window).scroll(function() {
+                            if ($(this).scrollTop() > 250) { //use `this`, not `document`
+                                $('.corner-ribbon').css({
+                                    'display': 'none'
+                                });
+                            }
+                        });
+                        $(window).scroll(function() {
+                            if ($(this).scrollTop() < 250) { //use `this`, not `document`
+                                $('.corner-ribbon').css({
+                                    'display': 'inline'
+                                });
+                            }
+                        });
+                    </script>
                     <!-- /MOMENT -->
 ---
 
-<div class="corner-ribbon top-right red shadow">Seconda Edizione!</div>
+<div class="corner-ribbon top-right sticky red shadow">Seconda Edizione!</div>
 
 <%= partial "partials/promo_section", :locals => { :precentuale_sconto => "32", :frase_incentivo => "Seconda Edizione - Iscriviti Subito!"} %>
 
