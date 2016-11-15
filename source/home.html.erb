@@ -1,0 +1,149 @@
+---
+title: >
+        La scuola di scrittura a Milano - TralerigheLab
+
+description: >
+        Costruisci il Tuo Progetto di Scrittura: Sviluppo della Storia, Definizione dei Personaggi, Perfezionamento e Cura della Propria Cifra Stilistica.
+
+testata:
+    prima_riga: Scuola di scrittura
+    hasButton: 0
+    seconda_riga: >
+
+            TralerigheLab<br><span class="medium"><i>La scuola di scruttira di Milano</i></span>
+
+immagineTestata: https://prismic-io.s3.amazonaws.com/tralerighe/2082cd401e9c940892700aa788f6a28131897809_scrittura_creativa.jpg
+
+headCode: >
+
+conversionCode: >
+                    <!-- MOMENT -->
+                    <script src="https://s3-eu-west-1.amazonaws.com/cdn.fucinadeltag.it/moment.js"></script>
+                    <script type="text/javascript">
+                        moment.locale('it');
+                        var lastDayOfMonth = moment().endOf('month').format("D\ MMMM YYYY");
+                        $(".dataPromo").html(lastDayOfMonth);
+                    </script>
+                    <script type="text/javascript">
+                        $(window).scroll(function() {
+                            if ($(this).scrollTop() > 250) { //use `this`, not `document`
+                                $('.corner-ribbon').css({
+                                    'display': 'none'
+                                });
+                            }
+                        });
+                        $(window).scroll(function() {
+                            if ($(this).scrollTop() < 250) { //use `this`, not `document`
+                                $('.corner-ribbon').css({
+                                    'display': 'inline'
+                                });
+                            }
+                        });
+                    </script>
+                    <!-- /MOMENT -->
+---
+
+<div class="row">
+    <div class="column">
+        <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> I corsi di TralerigheLab</h2>
+    </div>
+</div>
+<div class="row small-up-1 medium-up-1">
+    <div class="column margin-column callout">
+        <div class="row">
+            <div class="medium-6 columns">
+                <a href="/scritturacreativa" title="Corso di Scrittura Creativa">
+                    <img src="https://prismic-io.s3.amazonaws.com/tralerighe/2082cd401e9c940892700aa788f6a28131897809_scrittura_creativa.jpg">
+                </a>
+            </div>
+            <div class="medium-6 columns">
+                    <h2>
+                        <a href="scritturacreativa" title="Corso di Scrittura Creativa">
+                            Corso di scrittura Creativa
+                        </a>
+                    </h2>
+                    <i>Dal 4 febbraio 2017 al 2 aprile 2017</i>
+                    <p></p>
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <a href="/scritturacreativa" class="ctaButton button">Maggiori Informazioni</a>
+                        </div>
+                    </div>
+                    <i>Seconda Edizione</i>
+            </div>
+        </div>
+    </div>
+    <div class="column margin-column callout ">
+        <div class="row">
+            <div class="medium-6 columns">
+                 <a href="/storytelling" title="Corso di Storytelling">
+                    <img src="https://prismic-io.s3.amazonaws.com/tralerighe/724f0a2c97a692bfb57b0431849a28f28dc1d51a_storitelling-testata2.png">
+                </a>
+            </div>
+            <div class="medium-6 columns">
+                    <h2>
+                        <a href="storytelling" title="Corso di Storytelling">
+                            Corso di Storytelling
+                        </a>
+                    </h2>
+                    <i>Dal 18 febbraio 2017 al 4 marzo 2017</i>
+                    <p></p>
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <a href="/storytelling" class="ctaButton button">Maggiori Informazioni</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="column margin-column callout ">
+        <div class="row">
+            <div class="medium-6 columns">
+                <a href="/storytelling" title="Corso di Sceneggiatura">
+                    <img src="https://prismic-io.s3.amazonaws.com/tralerighe/5d49575be514870df860b34dc2c722aea3c3b76a_sceneggiatura-testata3.jpg">
+                </a>
+            </div>
+            <div class="medium-6 columns">
+                    <h2>
+                        <a href="sceneggiatura" title="Corso di Sceneggiatura">
+                            Corso di Sceneggiatura
+                        </a>
+                    </h2>
+                    <i>Dal 11 marzo 2017 al 26 marzo 2017</i>
+                    <p></p>
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <a href="/sceneggiatura" class="ctaButton button">Maggiori Informazioni</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row small-up-1 medium-up-4">
+    <div class="column">
+        <h4 class="subheader"><i class="fa fa-eur"></i> Prezzi Convenienti</h4>
+    </div>
+
+    <div class="column">
+        <h4 class="subheader"><i class="fa fa-graduation-cap"></i> Docenti qualificati</h4>
+    </div>
+
+    <div class="column">
+        <h4 class="subheader"><i class="fa fa-tachometer"></i> Rispote veloci</h4>
+    </div>
+
+    <div class="column">
+        <h4 class="subheader"><i class="fa fa-puzzle-piece"></i>  Al vostro servizio</h4>
+    </div>
+</div>
+
+<hr>
+
+<%= partial "partials/form", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5", :precentuale_sconto => "30", :id_corso => "home"} %>
+
+
+<%= partial "partials/chiSiamo" %>
+
+
