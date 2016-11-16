@@ -1,0 +1,356 @@
+---
+title: >
+        Corso di Scrittura Creativa a Milano - Tralerighe
+
+description: >
+        Costruisci il Tuo Progetto di Scrittura: Sviluppo della Storia, Definizione dei Personaggi, Perfezionamento e Cura della Propria Cifra Stilistica.
+
+testata:
+    prima_riga: Corso di Scrittura Creativa
+    seconda_riga: >
+
+            Dal 4 febbraio 2017 al 2 aprile 2017<br><span class="medium"><i>Due fine settimana al mese (70 Ore) a Milano</i></span>
+
+immagineTestata: https://prismic-io.s3.amazonaws.com/tralerighe/2082cd401e9c940892700aa788f6a28131897809_scrittura_creativa.jpg
+
+headCode: >
+
+conversionCode: >
+                    <!-- MOMENT -->
+                    <script src="https://s3-eu-west-1.amazonaws.com/cdn.fucinadeltag.it/moment.js"></script>
+                    <script type="text/javascript">
+                        moment.locale('it');
+                        var lastDayOfMonth = moment().endOf('month').format("D\ MMMM YYYY");
+                        $(".dataPromo").html(lastDayOfMonth);
+                    </script>
+                    <script type="text/javascript">
+                        $(window).scroll(function() {
+                            if ($(this).scrollTop() > 250) { //use `this`, not `document`
+                                $('.corner-ribbon').css({
+                                    'display': 'none'
+                                });
+                            }
+                        });
+                        $(window).scroll(function() {
+                            if ($(this).scrollTop() < 250) { //use `this`, not `document`
+                                $('.corner-ribbon').css({
+                                    'display': 'inline'
+                                });
+                            }
+                        });
+                    </script>
+                    <!-- /MOMENT -->
+---
+
+<div class="corner-ribbon top-right sticky red shadow">Seconda Edizione!</div>
+
+<%= partial "partials/promo_section", :locals => { :precentuale_sconto => "32", :frase_incentivo => "Seconda Edizione - Ultimi 12 posti disponibili"} %>
+
+<%= partial "partials/rowCallToAction" %>
+
+<hr>
+
+<div class="row">
+    <div class="columns">
+        <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> I docenti del corso</h2>
+    </div>
+</div>
+
+<div class="row small-up-1">
+    <div class="column">
+        <div class="row">
+            <div class="column small-12 medium-3 small-order-2 medium-order-1">
+                <img class="thumbnail" src="https://prismic-io.s3.amazonaws.com/tralerighe/8425dd37ddc6fcdda97adc0660c37da046691e09_federico-baccomo.jpg">
+            </div>
+
+            <div class="column small-12 medium-9 small-order-1 medium-order-2">
+                <h2 class="subheader">Federico Baccomo</h2>
+                <h3>Scrittore per Marsilio e Giunti</h3>
+                <p>
+                    Nato a Milano nel 1978.<br>
+                    Ex avvocato, ha lasciato la professione per dedicarsi alla scrittura.
+                </p>
+
+                <p>
+
+                    Ha pubblicato i romanzi:
+                    <ul>
+                        <li><strong>Studio illegale</strong> (2009 – vincitore del Premio Vigevano Opera Prima) - Edito da <i>Marsilio</i></li>
+                        <li><strong>La gente che sta bene</strong> (2011) - Edito da <i>Marsilio</i></li>
+                        <li><strong>Peep Show</strong> (2014 – vincitore del Premio Letterario Frignano) - Edito da <i>Marsilio</i></li>
+                        <li><strong>Woody</strong> (2015) - Edito da <i>Giunti</i></li>
+                    </ul>
+                    Dai primi due sono stati tratti gli omonimi film.
+                </p>
+                <p>
+                    Scrive soggetti e sceneggiature per il cinema e la televisione.<br>
+                    Ha collaborato, tra gli altri, con GQ, il Fatto quotidiano e il Venerdì di Repubblica.
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="row">
+            <div class="column small-12 medium-3 small-order-2 medium-order-1">
+                <img class="thumbnail" src="https://prismic-io.s3.amazonaws.com/tralerighe/b4e50590e35a4e261a1e0fd0dabfaecd4d683f70_lorenza_gentile.jpg">
+            </div>
+
+            <div class="column small-12 medium-9 small-order-1 medium-order-2">
+                <h2 class="subheader">Lorenza Gentile</h2>
+                <h3>Scrittrice per Einaudi Stile Libero</h3>
+                <p>
+                    Nata a Milano nel 1988.<br>
+                    Si è laureata in Arti dello Spettacolo alla Goldsmiths University di Londra e ha frequentato la scuola di teatro Jacques Lecoq di Parigi.
+                </p>
+
+                <p>
+                Il suo primo romanzo, <strong>Teo</strong> è stato pubblicato in Italia (Einaudi Stile Libero, 2014), Germania (Dtv, 2015), Corea (Open Books, 2015) e in Spagna (Siruela, 2016).
+                <br>I diritti cinematografici sono stati opzionati da Pantaleon Entertainment.<br>
+                Teo ha vinto il premio Rhegium Julii 2014, il Premio Seminara Opera Prima 2014, il Premio Kihlgren Opera Prima 2015 e il premio Young Jury della Literaturhaus di Vienna
+                </p>
+                <p>
+                    La sua prima opera teatrale <strong>If not today, eventually</strong> andrà in scena al <i>Park Theatre di Londra</i> in autunno.
+                    <br>Il suo prossimo romanzo è in via di pubblicazione presso <i>Einaudi Stile Libero</i> (Gennaio 2017).
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="row">
+            <div class="column small-12 medium-3 small-order-2 medium-order-1">
+                <img class="thumbnail" src="https://prismic-io.s3.amazonaws.com/tralerighe/51da529c502abb348504aa89260a454f58f4f500_davide_mosca.jpeg">
+            </div>
+
+            <div class="column small-12 medium-9 small-order-1 medium-order-2">
+                <h2 class="subheader">Davide Mosca</h2>
+                <h3>Scrittore per Mondadori, Rizzoli e Chiarelettere</h3>
+                <p>
+                    Nato a Savona nel 1979 e vive a Milano.<br>
+                    Scrittore, ghost-writer ed editorialista, ha pubblicato una decina di romanzi e altrettanti saggi, vendendo oltre <strong>centomila copie</strong>.
+                </p>
+
+                <p>
+                    Alcuni suoi romanzi:
+                    <ul>
+                        <li><strong>Ho osato vincere</strong> - Edito da <i>Mondadori</i></li>
+                        <li><strong>Più sicuri di sé con Raymond Chandler </strong> - Edito da <i>Chiarelettere</i></li>
+                        <li><strong>Il crociato infedele  </strong> - Edito da <i>Rizzioli</i></li>
+                        <li><strong>A tu per tu con Raffaele Morelli</strong> - Edito da <i>Riza</i></li>
+                        <li><strong>Non colpevole, L’ultimo Cesare, La cripta dei libri profetici, Il profanatore di biblioteche proibite</strong> - Editi da <i>Newton & Compton</i></li>
+                        <li><strong>Silla il figlio della fortuna, Silla imperator, Congiura</strong> - Editi da <i>Mursia</i></li>
+                    </ul>
+                </p>
+                <p>
+                    Lavora nell’editoria e insegna scrittura creativa da oltre dieci anni.<br>
+                    Dal 2015 dirige la libreria Verso di Milano.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="row banner">
+        <div class="small-12 columns">
+            <a href="#form">
+                <span class="sconto">Pubblicare è possibile</span>
+                <br><span class="subSconto">A corso concluso il tuo progetto potrà diventare un Libro!</span><br>
+                <span class="subSconto"><i>Pubblicato da Tralerighe Editore</i></span>
+            </a>
+        </div>
+</div>
+
+<%= partial "partials/rowCallToAction" %>
+
+
+<!-- <div class="row align-center">
+    <div class="column small-12 center">
+            <h2>Scrittori si diventa!<h2>
+            <h3 class="subheader">La scrittura nasce dall’ispirazione ma si nutre di metodo e tecnica</h3>
+    </div>
+</div> -->
+
+<hr>
+
+<div class="row">
+    <div class="column">
+        <h2><i class="fa fa-folder-open" aria-hidden="true"></i> Percorso formativo</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="column small-12 medium-9">
+        <p>
+            <ul>
+                <li>
+                    <strong>L’idea</strong>: cercarla, trovarla, tenerla viva
+                    <p>
+                        <i>Perché alcune idee funzionano e altre no? Se è già stato “scritto tutto”, che cosa possiamo riscrivere?</i>
+                    </p>
+                </li>
+                <li>
+                    <strong>La storia</strong>: la struttura tra ordine e caos
+                    <p>
+                        <i>Una buona storia è quella che puoi raccontare in un minuto, ma che leggeresti per giorni e giorni.</i>
+                    </p>
+                </li>
+                <li>
+                    <strong>La forma del mondo</strong>: personaggi, ambiente, tempo
+                    <p>
+                        <i>Il tempo e lo spazio sono i tuoi migliori amici, ma possono trasformarsi nei tuoi peggiori nemici se non sai come trattarli.</i>
+                    </p>
+                </li>
+                <li>
+                    <strong>Le parole giuste</strong>: stile, punto di vista, genere, lingua, tono, voce
+                    <p>
+                        <i>Ogni scrittore ha bisogno di una nutrita cassetta degli attrezzi: ecco quali procurarti e come utilizzarli.</i>
+                    </p>
+                </li>
+                <li>
+                    <strong>La struttura</strong>: incipit, finale e tutto quello che sta in mezzo
+                    <p>
+                        <i>Iniziare bene, finire meglio. Due momenti da rendere indimenticabili.</i>
+                    </p>
+                </li>
+                <li>
+                    <strong>Il corpo</strong>: dialoghi, colpi di scena, divagazioni, flashback e molto altro
+                    <p>
+                        <i>La meta è il viaggio. Come affrontarlo senza smarrirsi. Se impari a godertelo, se lo godrà anche il lettore.</i>
+                    </p>
+                </li>
+                <li>
+                    <strong>La revisione</strong>: rilettura e auto-editing
+                    <p>
+                        <i>Chi l’ha detto che tutti i capolavori nascono di getto? Riscrivere è spesso più importante di scrivere.</i>
+                    </p>
+                </li>
+                <li>
+                    <strong>L’approccio</strong>: aiutare l’ispirazione, mantenere la disciplina, gestire lo sconforto
+                    <p>
+                        <i>D’accordo “rimanere affamati”, ma come farsi venire l’appetito?</i>
+                    </p>
+                </li>
+                <li>
+                    <strong>La pubblicazione</strong>: editori, agenti, proposte, contratti e altri incidenti (più o meno) necessari
+                    <p>
+                        <i>Conoscere e sapersi orientare nel “mondo delle meraviglie”, perché i pericoli sono sempre in agguato.</i>
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </div>
+    <div class="column show-for-medium">
+        <img class="thumbnail" src="https://prismic-io.s3.amazonaws.com/tralerighe/1af923ad488dacb9e44543af7ce1c6a48c7ab030_scrittura.jpg">
+    </div>
+</div>
+
+<hr>
+
+<div class="row banner">
+        <div class="small-12 columns">
+            <a href="#form">
+                <span class="sconto">Incontri con Editor</span>
+                <br><span class="subSconto">Workshop con gli editor delle più importanti case editrici!</span>
+            </a>
+        </div>
+</div>
+
+<%= partial "partials/rowCallToAction" %>
+
+
+<hr>
+
+<div class="row">
+    <div class="column">
+        <h2><i class="fa fa-info-circle" aria-hidden="true"></i> Informazioni</h2>
+    </div>
+</div>
+
+<div class="row small-up-1 medium-up-3">
+    <div class="column">
+        <h4 class="subheader">Quanto costa?</h2>
+        <p>
+
+            <span class="prezzo_intero">€ 1.250,00</span> <i>Sconto del 32%</i><br>
+
+            <span class="prezzo">€ 850,00</span> (IVA inclusa)<br>Pagabile anche a rate!<br>
+
+            Sconto valido fino al <i><span class="dataPromo">esaurimento posti</span></i>
+        </p>
+        <hr class="hide-for-medium">
+    </div>
+    <div class="column">
+        <h4 class="subheader">Dove si tiene il corso?</h2>
+        <p>
+            <strong>Scuola TralerigheLab presso MAMU</strong><br>
+            via Soave 3, 20135 Milano<br>
+            <i>Fermata Porta Romana - Linea M3 gialla</i>
+        </p>
+        <hr class="hide-for-medium">
+    </div>
+    <div class="column">
+        <h4 class="subheader">Quanti saranno i partecipanti?</h2>
+        <p>
+            <strong>Il corso prevede un massimo di 25 partecipanti</strong><br>
+            Le candidature verranno quindi vagliate dallo staff di Tralerighe e dai docenti<br>
+        </p>
+        <hr class="hide-for-medium">
+    </div>
+</div>
+<div class="row show-for-medium">
+    <img src="https://prismic-io.s3.amazonaws.com/tralerighe/26a3c5f52c103d4df9b3fc57ba93ba11ad68dabe_libri.jpg">
+</div>
+<p></p>
+<div class="row small-up-1 medium-up-2">
+    <div class="column">
+        <h4 class="subheader">Quanto dura il corso?</h2>
+        <p>
+            Il Corso di scrittura creativa si svolgerà da<br>
+            <strong>febbraio 2017 a aprile 2017 per 2 fine settimana al mese:</strong>
+        </p>
+        <p>
+            <ul>
+                <li>sabato 4 e domenica 5 febbraio 2017</li>
+                <li>sabato 18 e domenica 19 febbraio 2017</li>
+                <li>sabato 4 e domenica 5 marzo 2017</li>
+                <li>sabato 18 e domenica 19 marzo 2017</li>
+                <li>sabato 1 e domenica 2 aprile 2017</li>
+
+            </ul>
+        </p>
+        <p>
+            Gli orari: <strong>dalle 9 alle 17</strong> (il sabato e la domenica)<br>
+            Durata totale: <strong>70 ore</strong>
+        </p>
+        <hr class="hide-for-medium">
+    </div>
+    <div class="column">
+        <h4 class="subheader">Come selezionate i partecipanti?</h2>
+        <p>
+            Contatteremo personalmente ciascun candidato indagando le motivazioni che lo spingono a voler partecipare.
+        </p>
+        <p>
+            Ti chiederemo una breve presentazione personale (chi sei e perché vuoi partecipare)
+        </p>
+        <p>
+            <strong>I candidati riceveranno una risposta entro 3 giorni dall’invio della domanda</strong>.
+        </p>
+    </div>
+</div>
+
+<hr>
+
+<%= partial "partials/form", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5", :precentuale_sconto => "32", :id_corso => "ScritturaCreativa_2"} %>
+
+
+<%= partial "partials/dormire" %>
+
+<hr>
+
+<%= partial "partials/chiSiamo" %>
+
+<%= partial "partials/rowCallToAction" %>
