@@ -4,3 +4,4 @@
 
 //= require app
 //= require script
+//= require yotpo

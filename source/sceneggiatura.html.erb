@@ -9,7 +9,7 @@ testata:
     prima_riga: Corso di Sceneggiatura
     seconda_riga: >
 
-            Dal 11 marzo 2017 al 26 marzo 2017<br><span class="medium"><i>2 fine settimana (21 Ore) a Milano</i></span>
+            Dall' 11 marzo 2017 al 26 marzo 2017<br><span class="medium"><i>2 fine settimana (21 Ore) a Milano</i></span>
 
 immagineTestata: https://prismic-io.s3.amazonaws.com/tralerighe/5d49575be514870df860b34dc2c722aea3c3b76a_sceneggiatura-testata3.jpg
 
@@ -225,7 +225,16 @@ conversionCode: >
 
 <hr>
 
-<%= partial "partials/form", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5", :precentuale_sconto => "30", :id_corso => "Sceneggiatura_1"} %>
+<div class="row">
+    <div class="columns callout">
+        <%= partial "partials/iscriviti_ora", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5", :posti => "11", :precentuale_sconto => "30", :id_corso => "Sceneggiatura_1", :titolo_corso => "Corso di Sceneggiatura", :descrizione_corso => "Dall' 11 marzo 2017 al 26 marzo 2017", :testo_rate => "Verserai i restanti 277 Euro in 2 comode rate!"} %>
+
+        <hr>
+
+        <%= partial "partials/form", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5", :precentuale_sconto => "30", :id_corso => "Sceneggiatura_1"} %>
+
+    </div>
+</div>
 
 <%= partial "partials/dormire" %>
 <hr>

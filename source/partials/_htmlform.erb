@@ -1,0 +1,59 @@
+<div class="small-12 medium-12 <%= form_class_large %> columns callout">
+    <form data-abide novalidate accept-charset="UTF-8" action="https://formkeep.com/f/56b6c4b71cee" method="POST">
+        <!-- <div data-abide-error class="alert callout" style="display: none;">
+            <p><i class="fi-alert"></i> Si sono verificati alcuni errori evidenziati in rosso.</p>
+        </div> -->
+        <input type="hidden" id="id_corso" name="id_corso" value="<%= id_corso %>">
+        <input type="hidden" id="deviceForm" name="device" value="large">
+        <input type="hidden" id="campagnaForm" name="campagna" value="direct">
+        <input type="hidden" id="optimizelyVariationForm" name="optimizelyVariation" value="">
+
+
+        <div class="row">
+            <div class="small-6 columns">
+                <label>Nome e Cognome*
+                    <input type="text" name="nome" required>
+                    <span class="form-error">
+                        Il campo Nome è obbligatorio
+                    </span>
+                </label>
+            </div>
+            <div class="small-6 columns">
+                <label>E-Mail*
+                    <input type="email" name="email" required>
+                    <span class="form-error">
+                        Il campo E-Mail è obbligatorio
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 medium-12 columns">
+                <label>
+                    Richieste o Domande?
+                    <textarea rows="3" cols="50" name="messaggio"></textarea>
+                </label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="small-12 columns">
+                <input type="checkbox" name="privacy" id="privacy" required checked>
+                    <label for="privacy">
+                        Ho letto e accetto l'informativa sulla <a href="/privacy" target="_blank">Privacy</a>
+                        <span class="form-error">
+                            <p>Accetta l'informativa sulla privacy!</p>
+                        </span>
+                    </label>
+            </div>
+        </div>
+
+
+
+        <div class="row align-center">
+            <fieldset class="small-12 columns">
+                <button class="ctaButton button" type="submit" value="Submit">Invia la tua richiesta</button>
+            </fieldset>
+        </div>
+    </form>
+</div>
