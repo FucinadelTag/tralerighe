@@ -65,7 +65,7 @@ activate :directory_indexes
 set :index_file, "index.html"
 
 activate :prismic_middleman do |f|
-  f.url = 'https://philips-defibrillatori.prismic.io/api'
+  f.url = 'https://tralerighe.prismic.io/api'
 
   f.conf = {
         'blog'=> {
