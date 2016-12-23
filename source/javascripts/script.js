@@ -65,11 +65,11 @@ $.setDeviceInForm = function (fieldId) {
     $.setFormValue (fieldId, newValue);
 }
 
-$.setOptimizelyVariationInForm = function (fieldId, experimentId) {
-    newValue = optimizely.variationNamesMap[experimentId];
-    console.log (newValue);
-    $.setFormValue (fieldId, newValue);
-}
+// $.setOptimizelyVariationInForm = function (fieldId, experimentId) {
+//     newValue = optimizely.variationNamesMap[experimentId];
+//     console.log (newValue);
+//     $.setFormValue (fieldId, newValue);
+// }
 
 Snipcart.api.configure('split_firstname_and_lastname', false);
 
