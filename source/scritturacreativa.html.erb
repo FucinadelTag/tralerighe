@@ -363,16 +363,9 @@ conversionCode: >
 
 <hr>
 
-<div class="row">
-    <div class="columns callout">
-        <%= partial "partials/iscriviti_ora", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5", :posti => "7", :precentuale_sconto => "32", :id_corso => "ScritturaCreativa_2", :titolo_corso => "Corso di Scrittura Creativa", :descrizione_corso => "Dal 4 febbraio 2017 al 2 aprile 2017", :testo_rate => "Verserai i restanti 700 Euro in 2 comode rate!"} %>
 
-        <hr>
+<%= partial "partials/form", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5", :precentuale_sconto => "32", :id_corso => "ScritturaCreativa_2"} %>
 
-        <%= partial "partials/form", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5", :precentuale_sconto => "32", :id_corso => "ScritturaCreativa_2"} %>
-
-    </div>
-</div>
 
 <%= partial "partials/dormire" %>
 

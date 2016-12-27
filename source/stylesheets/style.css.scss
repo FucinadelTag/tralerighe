@@ -235,7 +235,7 @@ footer {
 }
 
 .evidenza {
-    background-color: #f9f9f9;
+    background-color: $evidence-color;
     padding: rem-calc(20, null);
     text-align: center;
     margin-bottom: 1rem;
@@ -247,7 +247,7 @@ footer {
         letter-spacing: 0px;
         font-weight: 300;
         font-style: normal;
-        color: #8a8a8a;
+        color: $black;
     }
 }
 

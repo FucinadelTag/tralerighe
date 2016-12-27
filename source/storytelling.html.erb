@@ -250,16 +250,9 @@ conversionCode: >
 
 <hr>
 
-<div class="row">
-    <div class="columns callout">
-        <%= partial "partials/iscriviti_ora", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5", :posti => "11", :precentuale_sconto => "30", :id_corso => "Storytelling_1", :titolo_corso => "Corso di Storytelling", :descrizione_corso => "Dal 18 febbraio 2017 al 4 marzo 2017", :testo_rate => "Verserai i restanti 277 Euro in 2 comode rate!"} %>
 
-        <hr>
+<%= partial "partials/form", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5", :precentuale_sconto => "30", :id_corso => "Storytelling_1"} %>
 
-        <%= partial "partials/form", :locals => { :form_class_large => "large-7", :phone_class_large => "large-5", :precentuale_sconto => "30", :id_corso => "Storytelling_1"} %>
-
-    </div>
-</div>
 
 <%= partial "partials/dormire" %>
 <hr>
