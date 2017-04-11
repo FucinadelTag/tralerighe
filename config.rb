@@ -123,6 +123,9 @@ activate :blog do |blog|
 
 end
 
+
+api = Prismic.api('https://cadorna10.prismic.io/api')
+
 ###
 # Helpers
 ###
